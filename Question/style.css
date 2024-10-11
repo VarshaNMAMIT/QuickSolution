@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter background for the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#questions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #2e2e2e; /* Darker button background */
+    border: 1px solid #444; /* Border for the buttons */
+    transition: background-color 0.3s;
+}
+
+.question:hover {
+    background-color: #3e3e3e; /* Lighter on hover */
+}
+
+#solution-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e1e1e; /* Solution container background */
+    border: 1px solid #444; /* Border for solution container */
+    max-height: 300px; /* Limit height */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+pre {
+    white-space: pre-wrap; /* Preserve formatting and wrap text */
+    text-align: left; /* Align text to the left */
+    font-family: monospace; /* Use monospace font */
+    color: #e0e0e0; /* Light color for the preformatted text */
+}
